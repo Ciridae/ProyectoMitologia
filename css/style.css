@@ -1,0 +1,29 @@
+.flip {
+    transform:  scale(1);
+    transition: 1s;
+}
+
+.flip:hover {
+    transform: scale(-1,1);
+    transition: 1s;
+}
+
+.enlace-copyright {
+    text-decoration: none;
+    color: black;
+}
+
+.enlace-copyright:hover {
+    text-decoration: underline;
+    color: rgb(13, 37, 88);
+}
+
+.contenedor-fondo {
+    background-image: url('../images/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fondo {
+    background: linear-gradient(to bottom, rgb(255, 250, 241) 10%, rgb(255, 255, 255) 70%);
+}
